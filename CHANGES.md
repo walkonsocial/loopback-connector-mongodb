@@ -1,4 +1,190 @@
-2015-02-21, Version 1.8.0
+2016-05-16, Version 1.15.2
+==========================
+
+ * Update "mongodb" dependency to caret notation (Bram Borggreve)
+
+
+2016-05-03, Version 1.15.1
+==========================
+
+ * insert/update copyrights (Ryan Graham)
+
+ * relicense as MIT only (Ryan Graham)
+
+
+2016-05-03, Version 1.15.0
+==========================
+
+ * Lazy connect when booting app (juehou)
+
+ * Add support for geoNear queries (Timo Saikkonen)
+
+ * Fix linting errors (Amir Jafarian)
+
+ * Auto-update by eslint --fix (Amir Jafarian)
+
+ * Add eslint infrastructure (Amir Jafarian)
+
+ * Implementation for replace (Amir Jafarian)
+
+ * Upgrade should to 8.0.2 (Simon Ho)
+
+ * Check dataSource.connecting to prevent race conditions (Fabien Franzen)
+
+ * Remove email from AUTHORS (Simon Ho)
+
+ * Update description in README.md (Simon Ho)
+
+ * Clean up package.json (Simon Ho)
+
+ * Update AUTHORS (Simon Ho)
+
+ * Add AUTHORS file (Simon Ho)
+
+ * Use ObjectId as internal storage for id (Raymond Feng)
+
+ * test: fix order of semver arguments (Ryan Graham)
+
+ * use mocha for test script (Ryan Graham)
+
+ * Add more tests for id coercion (Raymond Feng)
+
+
+2015-12-13, Version 1.13.2
+==========================
+
+ * Make sure null/undefined id is not coerced (Raymond Feng)
+
+ * Allow runtime configurable test environment (Simon Ho)
+
+ * changed env variable fortest servers (cgole)
+
+
+2015-11-23, Version 1.13.1
+==========================
+
+ * Fix the test set up (Raymond Feng)
+
+ * Added mongo port env var (cgole)
+
+ * Add env variable for mongodb server (cgole)
+
+ * Refer to licenses with a link (Sam Roberts)
+
+ * Fix repository field in package.json (Simon Ho)
+
+ * Use strongloop conventions for licensing (Sam Roberts)
+
+ * Enhance coercion of ids with inq/nin operators (Raymond Feng)
+
+ * Return deleted count (Raymond Feng)
+
+
+2015-08-06, Version 1.13.0
+==========================
+
+ * Added a setting to enable optimsied findOrCreate method so that connector continues to work with mongodb < 2.6 (Mike Bissett)
+
+ * Fixed up merge conflicted dependencies in package.json (Mike Bissett)
+
+ * Update deps (Raymond Feng)
+
+ * implement optimized findOrCreate (Clark Wang)
+
+ * extract sort document building to method (Clark Wang)
+
+
+2015-08-04, Version 1.12.0
+==========================
+
+ * Add regexp operator support (Simon Ho)
+
+ * Enable options.allowExtendedOperators (Fabien Franzen)
+
+ * Enable Model.settings.mongodb.allowExtendedOperators (Fabien Franzen)
+
+ * Update benchmarks (Simon Ho)
+
+
+2015-07-02, Version 1.11.3
+==========================
+
+ * Restore data.id to avoid build breaks (Raymond Feng)
+
+
+2015-06-25, Version 1.11.2
+==========================
+
+ * Revert "Add a workaround for auth with multiple mongos servers" (Raymond Feng)
+
+
+2015-06-15, Version 1.11.1
+==========================
+
+ * Fix the url (Raymond Feng)
+
+ * Replaced ensureIndex() with createIndex() (U-Zyn Chua)
+
+
+2015-06-05, Version 1.11.0
+==========================
+
+ * Add a workaround for auth with multiple mongos servers (Raymond Feng)
+
+ * Use custom collection name for migration (Raymond Feng)
+
+
+2015-06-03, Version 1.10.1
+==========================
+
+ * Make sure disconnect calls back (Raymond Feng)
+
+
+2015-06-01, Version 1.10.0
+==========================
+
+ * Add execute hooks (Raymond Feng)
+
+
+2015-05-29, Version 1.9.2
+=========================
+
+ * Update to memwatch-next for node 0.12 compatibility (Raymond Feng)
+
+
+2015-05-28, Version 1.9.1
+=========================
+
+ * Update deps (Raymond Feng)
+
+
+2015-05-28, Version 1.9.0
+=========================
+
+ * Add options (Raymond Feng)
+
+ * Update README.md (Simon Ho)
+
+ * Add leak detection (Simon Ho)
+
+ * Add benchmarks (Simon Ho)
+
+ * Support `ctx.isNewInstance` (Miroslav Bajtoš)
+
+ * Update deps (Raymond Feng)
+
+ * Cleanup for returning count on update/delete (Simon Ho)
+
+ * Default to `undefined` instead of `0` (Simon Ho)
+
+ * Return info object with affected items count (Simon Ho)
+
+ * added doc about allowExtendedOperators (Pasindu De Silva)
+
+ * Make test instructions more meaningful (Simon Ho)
+
+
+2015-02-20, Version 1.8.0
 =========================
 
  * Update deps (Raymond Feng)
